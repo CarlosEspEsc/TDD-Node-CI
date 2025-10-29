@@ -1,0 +1,1 @@
+import { fibonacci, esPinValido } from '../src/ejercicio.js'
