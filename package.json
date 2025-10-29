@@ -1,0 +1,22 @@
+{
+    "dependencies": {
+      "vitest": "^4.0.2"
+    },
+    "name": "calculadora-basica-tdd",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "directories": {
+      "test": "test"
+    },
+    "devDependencies": {
+      "chalk": "^5.6.2"
+    },
+    "scripts": {
+      "test": "vitest run",
+      "test:watch": "vitest"
+    },
+    "author": "JLL_CEE",
+    "license": "ISC",
+    "description": "Ejercicio 3 - Actividad 1 TDD + Node + CI"
+  }
