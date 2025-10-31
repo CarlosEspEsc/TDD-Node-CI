@@ -18,7 +18,7 @@ export function fibonacci(n) {
 
 }
 
-function esPinValido(pin){
+export function esPinValido(pin){
     if(pin == "" || pin == null || pin == undefined)
         return false        
     if(pin.length != 4 && pin.length != 6)
