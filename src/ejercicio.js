@@ -1,4 +1,4 @@
-function fibonacci(n) {
+export function fibonacci(n) {
     if (n <= 0) 
         RangeError("solo números enteros ≥ 0")
     if (n == 0)
@@ -8,3 +8,4 @@ function fibonacci(n) {
 
     return Math.fibonacci(n);
 }
+
