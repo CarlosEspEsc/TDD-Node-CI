@@ -2,7 +2,7 @@
     "dependencies": {
       "vitest": "^4.0.2"
     },
-    "name": "calculadora-basica-tdd",
+    "name": "ejercicio-3-jll-cee",
     "version": "1.0.0",
     "main": "index.js",
     "type": "module",
