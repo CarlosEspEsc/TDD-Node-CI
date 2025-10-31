@@ -2,7 +2,7 @@ name: ejercicio 3 Proyecto
 on:
     push: 
         branches: [main, development, feature-code]
-    pull_request:  
+    pull_request:  git pui
         branches: [main, development, feature-code]
 jobs: 
         test:
@@ -18,7 +18,7 @@ jobs:
                         cache: 'npm'
 
                     - name: Install dependencies (lockfile)
-                      run: npm ci
+                      run: npm ci --prefer-offline --no-audit
 
                     - name: Run tests
                       run: npm test
