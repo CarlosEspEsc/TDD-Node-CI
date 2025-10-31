@@ -1,7 +1,7 @@
 import { fibonacci, esPinValido } from '../src/ejercicio.js'
 import { describe, it, expect } from 'vitest'
 
-describe('ejercicio'), () => {
+describe('ejercicio', () => {
     it('fibonacci', () => {
         expect(fibonacci(7)).toBe(8)
         expect(fibonacci(5)).toBe(3)
@@ -12,4 +12,4 @@ describe('ejercicio'), () => {
         expect(fibonacci(3)).toBe(2)
         expect(fibonacci(-1)).toThrow(RangeError)
     })
-}
+})
