@@ -1,6 +1,7 @@
 name: ejercicio 3 Proyecto
 on:
     push: 
+        branches: [main, development, feature-code]
     pull_request:  
         branches: [main, development, feature-code]
 jobs: 
